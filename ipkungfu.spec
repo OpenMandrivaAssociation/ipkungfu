@@ -15,6 +15,7 @@ BuildArch:	noarch
 Requires:	userspace-ipfilter
 Buildrequires:	rpm-helper
 Buildrequires:  iptables-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Requires(post,preun):	rpm-helper
 
 %description
