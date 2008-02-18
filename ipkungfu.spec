@@ -2,7 +2,7 @@
 %define	version		0.6.1
 %define	release 	%mkrel 1
 
-Summary: 	IPKungFu is an iptables-based Linux firewall
+Summary: 	Iptables-based Linux firewall
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
