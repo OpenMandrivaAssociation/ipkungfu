@@ -1,6 +1,6 @@
 %define	name		ipkungfu
 %define	version		0.6.1
-%define	release 	%mkrel 1
+%define	release 	%mkrel 2
 
 Summary: 	Iptables-based Linux firewall
 Name:		%{name}
