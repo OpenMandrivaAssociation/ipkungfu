@@ -1,11 +1,7 @@
-%define	name		ipkungfu
-%define	version		0.6.1
-%define	release 	%mkrel 4
-
 Summary: 	Iptables-based Linux firewall
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		ipkungfu
+Version:	0.6.1
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Configuration/Networking
 Source:		http://linuxkungfu.org/ipkungfu/%{name}-%{version}.tar.bz2
@@ -15,8 +11,9 @@ BuildArch:	noarch
 Requires:	userspace-ipfilter
 Buildrequires:	rpm-helper
 Buildrequires:  iptables-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
-Requires(post,preun):	rpm-helper
+Requires(post): rpm-helper
+Requires(preun): rpm-helper
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 IPKungFu is an iptables-based Linux firewall. It aims to simplify 
