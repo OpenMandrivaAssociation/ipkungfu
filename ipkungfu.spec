@@ -10,6 +10,7 @@ URL:		http://www.linuxkungfu.org/
 BuildArch:	noarch
 Requires:	userspace-ipfilter
 Buildrequires:	rpm-helper
+Buildrequires:  iptables
 Buildrequires:  iptables-devel
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
