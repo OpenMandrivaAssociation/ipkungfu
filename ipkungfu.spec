@@ -1,7 +1,7 @@
 Summary: 	Iptables-based Linux firewall
 Name:		ipkungfu
 Version:	0.6.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		System/Configuration/Networking
 Source:		http://linuxkungfu.org/ipkungfu/%{name}-%{version}.tar.bz2
