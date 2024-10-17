@@ -6,7 +6,7 @@ License:	GPL
 Group:		System/Configuration/Networking
 Source:		http://linuxkungfu.org/ipkungfu/%{name}-%{version}.tar.bz2
 Source1:	%{name}.init.bz2
-URL:		http://www.linuxkungfu.org/
+URL:		https://www.linuxkungfu.org/
 BuildArch:	noarch
 Requires:	userspace-ipfilter
 Buildrequires:	rpm-helper
