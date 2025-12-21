@@ -9,6 +9,11 @@ Source1:	%{name}.init.bz2
 URL:		https://www.linuxkungfu.org/
 BuildArch:	noarch
 Requires:	userspace-ipfilter
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:	rpm-helper
 Buildrequires:  iptables
 Buildrequires:  iptables-devel
